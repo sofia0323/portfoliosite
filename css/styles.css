@@ -52,10 +52,17 @@ a {
     color: var(--pastel-pink);
     text-decoration: none;
 }
-
+a:visited {
+    /* Visited link styling */
+    color: #6610f2;
+}
 a:hover {
     color: var(--pastel-purple);
     text-decoration: underline;
+}
+a:active {
+    /* Active link styling */
+    color: #28a745;
 }
 
 .image-grid {
