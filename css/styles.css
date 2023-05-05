@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: var(--pastel-blue);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+/* Navigation bar styles */
+.navbar {
+    background-color: var(--pastel-green);
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: var(--pastel-purple);
+}
+
+/* Headings */
+h1, h2 {
+    color: var(--pastel-purple);
+    margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+    color: var(--pastel-pink);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--pastel-purple);
+    text-decoration: underline;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Color variables for pastel color scheme */
+:root {
+    --pastel-pink: #c43b4f;
+    --pastel-green: #98FB98;
+    --pastel-blue: #ADD8E6;
+    --pastel-purple: #da3bda;
+}
+p {
+    font-size: 20px; /* Adjust the size as needed */
+  }
+li {
+  font-size: 20px; /* Adjust the size as needed */
+}
+  
